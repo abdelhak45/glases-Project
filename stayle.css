@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+::selection{
+    color: white;
+    background-color: black;
+}
+body{
+    background-image: url("./glases/FB_IMG_16813935146812719.jpg");
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+} 
+.top{
+    display: flex;
+    background-color: darkslategray;
+    width: 100%;
+    height: fit-content;
+    justify-content: space-around;
+    padding: 15px;
+}
+.logo p{
+   font-size: 30px;
+   font-weight: bold;
+}
+.logo p .gs{
+    color: black;
+    background-color: white;
+    border-radius: 20px 0px 0px 20px ;
+}
+.logo p .es{
+    color: white;
+    background-color: black;
+    border-radius: 0px  20px 20px 0px  ;
+}
+.link{
+    margin-top: 5px;
+}
+.link a{
+    text-decoration: none;
+    color: rgb(58, 179, 179);
+    margin-left: 20px;
+    display: inline-block;
+    font-weight: bold;
+} 
+.link a:hover{
+    text-shadow: 2px 2px 9px black;
+    scale: 1.1;
+    transition: .5s;
+    color: white;
+}
+.text{
+    margin: 10% auto;
+}
+.hello{
+    font-size: 35px;
+margin: 20px 50px;
+color: #bd0acc;
+font-weight: bold;
+}
+.welcom{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px 30px;
+    color: #3db5a4;
+}
+.lorem{
+    max-width: 500px;
+word-spacing: 10px;
+font-weight: bold;
+color: #bf2859;
+margin: 10px auto;
+line-height: 30px;
+}
+.shopping{
+    background-color: rgb(218, 212, 212);
+    width: 100%;
+    height: 100%; 
+    margin-bottom: 0px;
+    padding-bottom: 100px;
+    
+
+}
+.shoppin{
+    display: flex;
+    justify-content: center;
+}
+.shoppin p{
+    
+    color: #15996d;
+font-size: 30px;
+margin-bottom: 50px;
+margin-top: 10px;
+font-weight: bold;
+letter-spacing: 3px;
+border-bottom: 4px solid #15996d;
+width: fit-content;
+}
+.imgbtn{
+order: white solid 1px;
+width: fit-content;
+background-color: white;
+border-radius: 5px;
+box-shadow: 2px 2px 10px gray;
+text-align: center;
+padding-bottom: 10px;
+}
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+img {
+    display: inline-block;
+    padding: 10px;
+  }
+button{
+   
+    color: rgb(24, 141, 24);
+background-color: white;
+border: 1px rgb(24, 141, 24) solid;
+border-radius: 6px;
+font-weight: bold;
+display: block;
+width: 145px;
+padding: 6px;
+margin: 5px auto;
+} 
+button:hover{
+        color: white;
+background-color: rgb(24, 141, 24);
+transition: .5s;
+width: 100px;
+}
+.buy{
+    margin: 20px 20px ;
+}
+
+  .end .iconend div {
+    border: 1px solid aqua;
+    padding: 20px;
+    margin: 71px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: aqua;
+    max-width: 300px;
+     }
+.end .iconend div a{
+    font-size: 70px;
+    color: black;
+    margin-bottom: 10px;
+}
+.end .iconend div:hover{
+    scale: 1.1;
+    transition: .5s;
+    color: purple;
+    box-shadow: 1px 1px 17px 1px gray;
+}
+.end .iconend div p{
+    font-weight: bold;
+}
+.iconend {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+  }
+.end{
+    background-color: #333;
+    border-radius: 20px 20px 0px 0px;
+    margin-top: -250px;
+}
+
+
+@media (max-width:400px) {
+    .logo p {
+        font-size: 22px;
+      }
+    .link {
+        font-size: 12px;
+      }
+    .link a {
+        margin-left: 8px;
+        font-weight: bold;
+      }
+}
+@media (min-width:401px) and (max-width:600px) {
+    .text {
+        margin: 22% auto;
+      }
+      .hello {
+        font-size: 26px;
+      }
+      .welcom {
+        font-size: 22px;
+      }
+      .lorem {
+        font-size: 13px;
+        padding: 10px;
+      }
+      .link a {
+        
+        margin-left: 8px;
+        
+      }
+}
+
+
+
+#up {
+    color: white;
+    background-color: black;
+    outline: none;
+    border: 2px solid white;
+    font-size: 34px;
+    padding: 0px 10px;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 5px;
+    display: none;
+    
+
+}
+
+
+#up:hover{
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    transition: .3s;
+    
+}
